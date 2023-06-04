@@ -50,6 +50,7 @@ REST (Representational State Transfer) — это способ создания 
 
 11. Что можно писать в параметре заголовков `Content-Type` ?
 12. Давайте отправим информацию о собачке в API по адресу `localhost/pets/add`
+
 fetch ("localhost/pets/add", {
     method: 'POST',
     body: JSON.stringify({
