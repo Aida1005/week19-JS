@@ -48,6 +48,8 @@ REST (Representational State Transfer) — это способ создания 
 
 10. Как посмотреть заголовки запроса к странице или API?
 
+Для этого необходимо нажать либо Ctrl+Shift+I (многие используют просто F12), либо правой кнопкой мыши и выбрать пункт «Посмотреть код», либо в верхнем выпадающем меню браузера выбрать «Дополнительные инструменты» → «Инструменты разработчика».
+
 11. Что можно писать в параметре заголовков `Content-Type` ?
 
 Image/jpeg: JPEG image file. Image/tiff: TIFF image file. Text/plain: TXT file (Plain Text) Video/mpeg: MP2, MPA, MPE, MPEG, MPG files.
