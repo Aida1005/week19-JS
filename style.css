@@ -1,0 +1,44 @@
+.main-body{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    width: auto;
+    margin-top: 50px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    width: 600px;
+}
+.form{
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    height: auto;
+    background-color: rgba(255, 196, 236, 0.358);
+}
+
+input,
+textarea {
+    display: flex;
+    width: 200px;
+    font-size: 18px;
+    min-height: 30px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.button{
+    background-color: rgba(217, 43, 226, 0.241);
+    border: none;
+    border-radius: 7px;
+    height: 40px;
+    width: 160px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.button:hover{
+    background: rgba(153, 29, 162, 0.471);
+}

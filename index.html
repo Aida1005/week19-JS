@@ -9,11 +9,29 @@
     <title>Posts</title>
 </head>
 <body>
-    <header>
-        <h1 class="title">Posts</h1>
+    <header>  
     </header>
-    <main>
-            <div class="post"></div>
+    <main>  
+        <div class="main-body">
+            <div>
+                <h1>Пост</h1>
+                <div class="post"></div>       
+            </div>
+            <div class="container">
+                    <h1>Новый пост</h1>
+                        <form class="form" id="form1">
+                            <div class="">
+                                <input class="main-post" type="text" id="post" placeholder="Заголовок поста" required>
+                                <textarea class="post-text" id="posttext" placeholder="Текст поста" required></textarea>
+                                <button class="button">Создать пост</button>
+                                </div>
+                            <div class="form-display">
+                                <div class="post-list"></div>
+                            </div>
+                        </form>
+                            </div>
+    
+        </div> 
     </main>
 <footer></footer>
     <script src="index.js"></script>
