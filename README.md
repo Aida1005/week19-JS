@@ -52,6 +52,7 @@ REST (Representational State Transfer) — это способ создания 
 12. Давайте отправим информацию о собачке в API по адресу `localhost/pets/add`
 
 fetch ("localhost/pets/add", {
+    
     method: 'POST',
     body: JSON.stringify({
       "breed": "Beagle",
